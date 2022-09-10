@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Niacinamide + Zinc Serum",
+    "brand": "The Ordinary",
+    "price": 11.99,
+    "quantityAvailable": 100,
+    "size": "1 FL OZ",
+    "reference": "to1",
+    "description": "Powerful serum",
+    "images": [
+      "../public/images/products/the-ordinary/to1/img1.jpg",
+      "../public/images/products/the-ordinary/to1/img2.jpg",
+      "../public/images/products/the-ordinary/to1/img3.jpg",
+      "../public/images/products/the-ordinary/to1/img4.jpg"
+    ]
+  },
+  {
+    "name": "Superfood Air-Whip Moisture Cream",
+    "brand": "Youth To The People",
+    "price": 48.99,
+    "quantityAvailable": 100,
+    "size": "2 FL OZ",
+    "description": "Powerful moisture for your skin",
+    "images": [
+      "../public/images/products/youth-to-the-people/yttp1/img1.jpg",
+      "../public/images/products/youth-to-the-people/yttp1/img2.jpg",
+      "../public/images/products/youth-to-the-people/yttp1/img3.jpg",
+      "../public/images/products/youth-to-the-people/yttp1/img4.jpg"
+    ],
+    "reference": "yttp1"
+  },
+  {
+    "name": "Super Antioxidant Cleanser",
+    "brand": "Youth To The People",
+    "price": 36.99,
+    "quantityAvailable": 100,
+    "size": "8 FL OZ",
+    "description": "An award-winning face wash with cold-pressed antioxidants to remove makeup, prevent buildup in pores, and support skin’s pH balance.",
+    "images": [
+      "../public/images/products/youth-to-the-people/yttp2/img1.jpg",
+      "../public/images/products/youth-to-the-people/yttp2/img2.jpg",
+      "../public/images/products/youth-to-the-people/yttp2/img3.jpg",
+      "../public/images/products/youth-to-the-people/yttp2/img4.jpg"
+    ],
+    "reference": "yttp2"
+  },
+  {
+    "name": "Foaming Cleaser",
+    "brand": "CeraVe",
+    "price": 18.39,
+    "quantityAvailable": 100,
+    "size": "16 FL OZ",
+    "description": "Recommended face wash",
+    "images": [
+      "../public/images/products/cerave/cv1/img1.jpg",
+      "../public/images/products/cerave/cv1/img2.jpg",
+      "../public/images/products/cerave/cv1/img3.jpg",
+      "../public/images/products/cerave/cv1/img4.jpg"
+    ],
+    "reference": "cv1"
+  },
+  {
+    "name": "Eye Repair Cream",
+    "brand": "CeraVe",
+    "price": 19.99,
+    "quantityAvailable": 100,
+    "size": "0.5 FL OZ",
+    "description": "Best for your eyes",
+    "images": [
+      "../public/images/products/cerave/cv2/img1.jpg",
+      "../public/images/products/cerave/cv2/img2.jpg",
+      "../public/images/products/cerave/cv2/img3.jpg",
+      "../public/images/products/cerave/cv2/img4.jpg"
+    ],
+    "reference": "cv2"
+  },
+  {
+    "name": "Every Sun Day SPF50+",
+    "brand": "Dr. Jart+",
+    "price": 40,
+    "quantityAvailable": 100,
+    "size": "1.69 FL OZ",
+    "description": "A weightless, matte, high-SPF physical sunscreen that looks and feels good on skin.",
+    "images": [
+      "../public/images/products/drjart/drj1/img1.jpg",
+      "../public/images/products/drjart/drj1/img2.jpg",
+      "../public/images/products/drjart/drj1/img3.jpg",
+      "../public/images/products/drjart/drj1/img4.jpg"
+    ],
+    "reference": "drj1"
+  },
+  {
+    "name": "Coconut Water Cream",
+    "brand": "First Aid Beauty",
+    "price": 42,
+    "quantityAvailable": 100,
+    "size": "1.7 FL OZ",
+    "description": " A refreshingly light water cream infused with nourishing coconut water to hydrate your skin with a burst of weightless moisture.",
+    "images": [
+      "../public/images/products/first-aid-beauty/fab1/img1.jpg",
+      "../public/images/products/first-aid-beauty/fab1/img2.jpg",
+      "../public/images/products/first-aid-beauty/fab1/img3.jpg",
+      "../public/images/products/first-aid-beauty/fab1/img4.jpg"
+    ],
+    "reference": "fab1"
+  },
+  {
+    "name": "15% Vitamin C and EGF Brightening Serum",
+    "brand": "The Inkey List",
+    "price": 15.99,
+    "quantityAvailable": 100,
+    "size": "1 FL OZ",
+    "description": "A delicate-yet-powerful, lightweight serum that delivers a potent dose of actives to visibly brighten dull skin and tighten the look of skin.",
+    "images": [
+      "../public/images/products/the-inkey-list/til1/img1.jpg",
+      "../public/images/products/the-inkey-list/til1/img2.jpg",
+      "../public/images/products/the-inkey-list/til1/img3.jpg",
+      "../public/images/products/the-inkey-list/til1/img4.jpg"
+    ],
+    "reference": "til1"
+  },
+  {
+    "name": "Triple Peptide + Cactus Hydrating + Firming Oasis Serum",
+    "brand": "Youth To The People",
+    "price": 55.99,
+    "quantityAvailable": 100,
+    "size": "1 FL OZ",
+    "description": " A potent, triple-peptide-infused, hyaluronic-acid face and eye serum that intensely hydrates and visibly plumps and firms to sustain bouncy, youthful skin.",
+    "images": [
+      "../public/images/products/youth-to-the-people/yttp3/img1.jpg",
+      "../public/images/products/youth-to-the-people/yttp3/img2.jpg",
+      "../public/images/products/youth-to-the-people/yttp3/img3.jpg",
+      "../public/images/products/youth-to-the-people/yttp3/img4.jpg"
+    ],
+    "reference": "yttp3"
+  },
+  {
+    "name": "Brightening Saffron Serum - Radiant Rani",
+    "brand": "Ranavat",
+    "price": 136.99,
+    "quantityAvailable": 100,
+    "size": "1 FL OZ",
+    "description": "An award-winning, lightweight, brightening facial serum for all skin types.",
+    "images": [
+      "../public/images/products/ranavat/rn1/img1.jpg",
+      "../public/images/products/ranavat/rn1/img2.jpg",
+      "../public/images/products/ranavat/rn1/img3.jpg",
+      "../public/images/products/ranavat/rn1/img4.jpg"
+    ],
+    "reference": "rn1"
+  },
+  {
+    "name": "Watermelon Glow Niacinamide Sunscreen SPF 50",
+    "brand": "Glow Recipe",
+    "price": 35.99,
+    "quantityAvailable": 100,
+    "size": "1.69 FL OZ",
+    "description": "A gentle chemical and mineral sunscreen that quickly hydrates and boosts glow while visibly evening skin tone over time with niacinamide, hyaluronic acid, and aloe.",
+    "images": [
+      "../public/images/products/glow-recipe/gr1/img1.jpg",
+      "../public/images/products/glow-recipe/gr1/img2.jpg",
+      "../public/images/products/glow-recipe/gr1/img3.jpg",
+      "../public/images/products/glow-recipe/gr1/img4.jpg"
+    ],
+    "reference": "gr1"
+  },
+  {
+    "name": "The Deep Cleanse Gentle Exfoliating Cleanser",
+    "brand": "Tatcha",
+    "price": 42.39,
+    "quantityAvailable": 100,
+    "size": "1.69 FL OZ",
+    "description": "A gentle cleanse",
+    "images": [
+      "../public/images/products/tatcha/ttc1/img1.jpg",
+      "../public/images/products/tatcha/ttc1/img2.jpg",
+      "../public/images/products/tatcha/ttc1/img3.jpg",
+      "../public/images/products/tatcha/ttc1/img4.jpg"
+    ],
+    "reference": "ttc1"
+  }
+]
