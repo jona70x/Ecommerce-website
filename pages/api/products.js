@@ -24,7 +24,7 @@ export default async function handler(req, res) {
     case "POST":
       try {
         const newProduct = await Product.create(req.body);
-        res.status(203).json({ success: true, message: "All done" });
+        res.status(203).json({ success: true, message: "Product created!" });
       } catch (error) {
         res.status(404).json({ success: false });
       }
