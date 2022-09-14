@@ -2,7 +2,7 @@ import connectMongo from '../../utils/connectMongo'
 import Product from '../../models/productModel'
 
 //
-export default async function getProducts(req, res) {
+export default async function handler(req, res) {
   const { method } = req
 
   await connectMongo()

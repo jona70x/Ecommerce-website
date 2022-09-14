@@ -1,5 +1,7 @@
 import type { NextPage } from 'next'
 import type { GetStaticProps } from 'next'
+
+
 import Head from 'next/head'
 import LandingContainer from '../components/common/landingProducts/LandingContainer'
 
@@ -8,6 +10,7 @@ type Props = {
 }
 
 const IndexPage: NextPage = ({ products }: Props) => {
+  
   return (
     <>
       <Head>
@@ -24,8 +27,8 @@ export default IndexPage
 // Getting data from API
 export const getStaticProps: GetStaticProps = async () => {
   const data = await fetch('http://localhost:3000/api/getProducts')
-  const response = await data.json()
-  const products = response.data
+  const dataJson = await data.json()
+  const products= await dataJson.data
   return {
     props: {
       products,

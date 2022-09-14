@@ -20,7 +20,7 @@ const LandingContainer: React.FC<Props> = ({ data }) => {
         name: product.name,
         price: product.price,
         size: product.size,
-        images: product.images,
+        images: product.images
       }
     })
     return modifiedData
@@ -36,7 +36,7 @@ const LandingContainer: React.FC<Props> = ({ data }) => {
   return (
     <Container>
       <div className="flex flex-col p-4 space-y-4 md:grid-cols-3 md:grid md:gap-6 mx-auto max-w-[1080px]">
-        <h1 className="text-center bg-[#93f2dc] text-3xl uppercase relative py-1 md:col-start-1 md:col-span-3">
+        <h1 className="text-centerbg-[#93f2dc] text-3xl uppercase relative py-1 md:col-start-1 md:col-span-3">
           Best sellers
         </h1>
         <div className="md:col-start-1 md:col-span-2 mx-auto">
