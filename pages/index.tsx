@@ -1,21 +1,34 @@
-import type { NextPage } from "next";
-import Head from "next/head";
+import type { NextPage } from 'next'
+import type { GetStaticProps } from 'next'
+import Head from 'next/head'
+import LandingContainer from '../components/common/landingProducts/LandingContainer'
 
-// Importing other components
-import NavBar from "../components/UI/NavBar";
+type Props = {
+  products: string[]
+}
 
-const IndexPage: NextPage = () => {
+const IndexPage: NextPage = ({ products }: Props) => {
   return (
     <>
       <Head>
         <title>Trully Skincare store</title>
-
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <NavBar />
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <LandingContainer data={products} />
     </>
-  );
-};
+  )
+}
 
-export default IndexPage;
+export default IndexPage
+
+// Getting data from API
+export const getStaticProps: GetStaticProps = async () => {
+  const data = await fetch('http://localhost:3000/api/getProducts')
+  const response = await data.json()
+  const products = response.data
+  return {
+    props: {
+      products,
+    },
+  }
+}

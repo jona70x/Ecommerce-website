@@ -20,7 +20,7 @@
     "**/*.ts",
     "**/*.tsx",
     "utils/connectMongo.js",
-    "pages/api/products.js",
+    "pages/api/getProducts.js",
     "models/productModel.js"
   ],
   "exclude": ["node_modules"]
