@@ -1,16 +1,28 @@
 import type { NextPage } from 'next'
 import type { GetStaticProps } from 'next'
+import getProducts from './api/getProducts'
+import useSWR from 'swr'
 
 
 import Head from 'next/head'
 import LandingContainer from '../components/common/landingProducts/LandingContainer'
 
-type Props = {
-  products: string[]
-}
+// type Props = {
+//   products: string[]
+// }
 
-const IndexPage: NextPage = ({ products }: Props) => {
-  
+const fetcher = (url: string) => fetch(url).then((res) => res.json());
+
+const IndexPage = () => {
+
+  const { data, error } = useSWR(
+    "/api/getProducts",
+    fetcher
+  );
+  if (error) return "An error has occurred.";
+  if (!data) return "Loading...";
+
+  const products = data.data
   return (
     <>
       <Head>
@@ -24,14 +36,4 @@ const IndexPage: NextPage = ({ products }: Props) => {
 
 export default IndexPage
 
-// Getting data from API
-export const getStaticProps: GetStaticProps = async () => {
-  const data = await fetch('http://localhost:3000/api/getProducts')
-  const dataJson = await data.json()
-  const products= await dataJson.data
-  return {
-    props: {
-      products,
-    },
-  }
-}
+
