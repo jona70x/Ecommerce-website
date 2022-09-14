@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 // Icons
 import { HiShoppingCart } from 'react-icons/hi'
@@ -42,9 +43,17 @@ const NavBar: React.FC = () => {
         `}
       </style>
       <div className="flex justify-between items-center text-center py-5 sticky shadow-xl z-50 mb-6 rounded-md bg-[#93f2dc]">
-        <a href="/" className="mx-2">
-          <Image src={logo} width="150px" height="50px" alt="skin-care-logo" />
-        </a>
+        <Link href="/">
+          <a className="mx-2">
+            <Image
+              src={logo}
+              width="150px"
+              height="50px"
+              alt="skin-care-logo"
+            />
+          </a>
+        </Link>
+
         {/* {Responsive size} */}
         <div className="md:hidden flex justify-between space-x-2 mx-2">
           <ActiveLink activeClassName="active" href="/user">
