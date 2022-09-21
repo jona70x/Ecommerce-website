@@ -4,7 +4,7 @@ import Image, { StaticImageData } from 'next/image'
 // Prop Interface
 interface Props {
   description: string
-  image: string
+  image: StaticImageData
   price: number
   size: string
 }
