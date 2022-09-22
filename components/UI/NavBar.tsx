@@ -42,7 +42,7 @@ const NavBar: React.FC = () => {
           }
         `}
       </style>
-      <div className="flex justify-between items-center text-center py-5 sticky shadow-xl z-50 mb-6 rounded-md bg-[#93f2dc]">
+      <div className="flex justify-between items-center text-center py-5 sticky shadow-xl z-50 mb-6 rounded-md bg-[#e3e6f3]">
         <Link href="/">
           <a className="mx-2">
             <Image
@@ -68,7 +68,7 @@ const NavBar: React.FC = () => {
           />
         </div>
         {responsiveMenu ? (
-          <div className="h-full fixed top-0 w-[50%] z-50 right-0 bg-[#93f2dc] shadow-md md:hidden ease-in-out duration-500">
+          <div className="h-full fixed top-0 w-[50%] z-50 right-0 bg-[#e3e6f3] shadow-md md:hidden ease-in-out duration-500">
             <ul className="flex flex-col items-start my-10 mx-6 space-y-5 hover:text-[#088178]>">
               <MdClose
                 className="cursor-pointer"

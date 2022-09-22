@@ -8,7 +8,7 @@ import { BsTwitter, BsLinkedin, BsGithub } from 'react-icons/bs'
 
 function Footer() {
   return (
-    <footer className="grid w-[100%] grid-cols-2 mx-auto items-center justify-center bg-[#93f2dc] ">
+    <footer className="grid w-[100%] grid-cols-2 mx-auto items-center justify-center bg-[#e3e6f3] ">
       <div className="col-span-2 justify-self-center">
         <Image src={logo} width="150px" height="50px" alt="skincare logo" />
       </div>

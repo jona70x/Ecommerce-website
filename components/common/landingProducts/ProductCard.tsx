@@ -17,9 +17,9 @@ const ProductCard: React.FC<Props> = ({ description, image, price, size }) => {
         <Image height="1000px" width="1000px" src={image} />
       </div>
       <div className="flex flex-col items-start absolute top-4">
-        <h1 className="uppercase text-sm p-2 bg-[#93f2dc]">{description}</h1>
-        <p className="uppercase text-sm p-2 bg-[#93f2dc]">{size}</p>
-        <p className="text-2xl p-2 bg-[#93f2dc]">${price}</p>
+        <h1 className="uppercase text-sm p-2 bg-[#e3e6f3]">{description}</h1>
+        <p className="uppercase text-sm p-2 bg-[#e3e6f3]">{size}</p>
+        <p className="text-2xl p-2 bg-[#e3e6f3]">${price}</p>
       </div>
     </div>
   )

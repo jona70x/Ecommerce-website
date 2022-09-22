@@ -14,7 +14,7 @@ interface Props {
 const LandingContainer: React.FC<Props> = ({ data }) => {
   const getFirstThree = (data: string[]) => {
     const firstThree = data.slice(0, 3)
-    console.log(firstThree)
+
     const modifiedData = firstThree.map((product: any) => {
       return {
         name: product.name,
@@ -33,7 +33,7 @@ const LandingContainer: React.FC<Props> = ({ data }) => {
   return (
     <Container>
       <div className="flex flex-col p-4 space-y-4 md:grid-cols-3 md:grid md:gap-6 mx-auto max-w-[1080px]">
-        <h1 className="text-center  bg-[#93f2dc] text-3xl uppercase relative py-1 md:col-start-1 md:col-span-3">
+        <h1 className="text-center  bg-[#e3e6f3] text-3xl uppercase relative py-1 md:col-start-1 md:col-span-3">
           Best sellers
         </h1>
         <div className="md:col-start-1 md:col-span-2 mx-auto">
